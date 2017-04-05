@@ -32,7 +32,7 @@ function human:draw()
   for i = 1, self.parts.number do
     self.parts[i]()
   end
-  love.graphics.print("LOL", 100, 100)
-  --print(100)
+  --love.graphics.print("LOL", 100, 100)
+  --love.graphics.rectangle("line",200,200,50,50)
 end
 
